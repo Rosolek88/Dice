@@ -9,7 +9,7 @@ let total=0;
 function diceRoll() {
 
 
-    let randomNumber = Math.floor(Math.random() * 6 + 1); // randomises number between 1-6
+    let randomNumber = Math.floor(Math.random() * 6 ); // randomises number between 1-6
     let total = randomNumber; // total to be random number
 
     //box.textContent = total; // shows number in the box
@@ -23,7 +23,7 @@ function diceRoll() {
         sum.textContent = "You Won!"
         total1 = 0; // if total1 sum equals 21 or more you win
     }
-    diceImg.src = images[total - 1];
+    diceImg.src = images[total];
 }
 console.log();
 
@@ -57,7 +57,7 @@ const lost1 = document.getElementById('lost1');
 function diceRoll1() {
 
 
-    let randomNumber1 = Math.floor(Math.random() * 6 + 1); // randomises number between 1-6
+    let randomNumber1 = Math.floor(Math.random() * 6 ); // randomises number between 1-6
     let total2 = randomNumber1; // total to be random number
 
     //box.textContent = total; // shows number in the box
@@ -71,7 +71,7 @@ function diceRoll1() {
         sum1.textContent = "You Won!"
         total11 = 0; // if total1 sum equals 21 or more you win
     }
-    diceImg1.src = images[total2 - 1];
+    diceImg1.src = images[total2];
 }
 console.log();
 
