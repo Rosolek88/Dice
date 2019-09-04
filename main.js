@@ -57,7 +57,7 @@ const lost1 = document.getElementById('lost1');
 function diceRoll1() {
 
 
-    let randomNumber1 = Math.floor(Math.random() * 6 ); // randomises number between 1-6
+    let randomNumber1 = Math.floor(Math.random() * 6); // randomises number between 1-6
     let total2 = randomNumber1; // total to be random number
 
     //box.textContent = total; // shows number in the box

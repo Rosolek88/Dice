@@ -13,11 +13,13 @@ body {
   background-size: cover;
   
 }
+.boxes {
+  margin: 90px;
+  margin-bottom: 90px;
+}
+
 .whole{
 text-align: center
-
-
-
 
 }
 #button {
@@ -43,13 +45,22 @@ text-align: center
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-#loost h1{
+#lost{
 font-weight: 400;
 font-size: 50px;
 }
-#sum h1{
+.sums{
   font-weight: 400;
   font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px black;
+  }
+
+  .lost-message {
+    color: red;
+    text-shadow: 2px 2px black;
+    font-weight: 400;
+    font-size: 50px;
   }
   
   #button1 {
